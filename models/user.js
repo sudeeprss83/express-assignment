@@ -7,8 +7,8 @@ const userSchema = new Schema(
     email: { type: String },
     phone: { type: String },
     password: { type: String },
-    userPic: { type: String },
-    logoutTime: { type: String },
+    userPic: { type: String, default: null },
+    logoutTime: { type: String, default: null },
   },
   { timestamps: true }
 )
