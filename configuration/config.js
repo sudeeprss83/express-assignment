@@ -1,8 +1,5 @@
 const UPLOADS = {
-  destination: 'uploads/questions/',
+  destination: 'uploads/others',
   mimeTypes: ['image/jpeg', 'image/png', 'image/jpg'],
 }
-
-const APP_PATH = '/projects/ngl-clone/'
-
-module.exports = { PLATFORMS, UPLOADS, HTTPS_KEYS, APP_PATH }
+module.exports = { UPLOADS }
